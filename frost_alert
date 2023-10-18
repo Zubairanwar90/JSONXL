@@ -7,7 +7,7 @@ import schedule
 import time
 from datetime import datetime
 
-APPID = '90dce1e419669e37d545fe6e359410c7'
+APPID = 'get api from openweathermap'
 location = 'San Francisco, US'
 
 def get_weather_data(location):
@@ -22,8 +22,8 @@ def send_weather_alert():
     weather_description = weather_data['weather'][0]['description']
 
     if current_weather.lower() == 'haze' and 'haze' in weather_description.lower():
-        username = 'zubairanwarrr@outlook.com'
-        password = 'Azaan12$'
+        username = 'Write your email address'
+        password = 'write password of your account'
         smtp_server = 'smtp-mail.outlook.com'
         smtp_port = 587
 
@@ -32,7 +32,7 @@ def send_weather_alert():
         smtp_connection.login(username, password)
 
         from_email = username
-        to_email = 'Zubair.anwar@cdph.ca.gov'
+        to_email = 'write recievers emaid address'
         subject = 'Frost Alert: Move Your Plants Indoors'
         message = 'The weather forecast indicates possible frost. Consider moving your plants indoors.'
 
