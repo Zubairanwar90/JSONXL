@@ -26,8 +26,8 @@ print(f'Current weather in {location}: {current_weather} - {weather_description}
 
 if current_weather.lower() == 'Clouds' and 'broken clouds' in weather_description.lower():
   
-    username = 'zubairanwarrr@outlook.com'
-    password = 'Azaan12$'
+    username = 'write your email address'
+    password = 'write your passsword'
     smtp_server = 'smtp-mail.outlook.com'  
     smtp_port = 587  
 
