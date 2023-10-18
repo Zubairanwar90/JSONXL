@@ -5,7 +5,7 @@
 # APPID = '66924581c8ee01ca69f17785672fe03e'
 # APPID = 'ed691b0da057dcc2a08be800e77a08c6'
 # Zubair key
-APPID = '84708adac96fe9aa7758c322aeb35927'
+APPID = 'get api from openweathermap'
 import json, requests, sys
 
 # Compute location from command line arguments.
